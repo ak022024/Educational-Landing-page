@@ -1,0 +1,51 @@
+/* Custom styles for the cards */
+.course-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom styles for the Enroll Now and Submit buttons */
+.custom-btn {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom styles for form inputs */
+form .form-control {
+    border-radius: 10px;
+}
+
+form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Footer customization */
+footer {
+    background-color: #343a40;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Add padding to the course details section */
+#courseDetails {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+}
